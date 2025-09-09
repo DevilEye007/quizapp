@@ -27,24 +27,6 @@ The app uses **Google Gemini API** to generate multiple-choice questions in real
 
 ---
 
-## 📂 Project Structure
-
-AI-Quiz-Generator/
-│── src/
-│ ├── assets/ # Logo and images
-│ ├── components/ # React components
-│ │ ├── Home.jsx # Main Home page
-│ │ ├── Quiz.jsx # Quiz screen (if added later)
-| | └── Result.jsx
-│ ├── App.jsx # App root
-│ └── index.js # Entry point
-│── public/ # Static files
-│── package.json
-│── README.md
-
-
----
-
 ## ⚙️ Installation & Setup
 
 1. Clone the repo:
@@ -53,6 +35,6 @@ AI-Quiz-Generator/
    cd quizapp
    
    npm install
-   VITE_GEMINI_API_KEY=your_api_key_here
+   https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=your_api_key_here
    npm run dev
 ---
