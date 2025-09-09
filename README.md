@@ -1,12 +1,58 @@
-# React + Vite
+# 🤖 AI Quiz Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive **AI-powered quiz generator** built with **ReactJS** and **TailwindCSS**.  
+It allows users to instantly create quizzes by choosing a **topic**, **difficulty level**, and **number of questions**.  
+The app uses **Google Gemini API** to generate multiple-choice questions in real time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎯 Generate quizzes on **any topic** with AI
+- 📊 Supports **Easy, Medium, Hard** difficulty levels
+- 🔢 Choose number of questions (1–20)
+- 🎨 Beautiful **TailwindCSS design** with gradients and shadows
+- 📱 Fully **responsive UI**
+- ⚡ Real-time quiz generation via **Google Gemini API**
+- 🔗 Footer with **contact & portfolio links**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **ReactJS** – Frontend framework
+- **TailwindCSS** – Styling
+- **Lucide React** – Icons
+- **Google Gemini API** – Quiz generation
+
+---
+
+## 📂 Project Structure
+
+AI-Quiz-Generator/
+│── src/
+│ ├── assets/ # Logo and images
+│ ├── components/ # React components
+│ │ ├── Home.jsx # Main Home page
+│ │ ├── Quiz.jsx # Quiz screen (if added later)
+| | └── Result.jsx
+│ ├── App.jsx # App root
+│ └── index.js # Entry point
+│── public/ # Static files
+│── package.json
+│── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/DevilEye007/quizapp.git
+   cd quizapp
+   
+   npm install
+   VITE_GEMINI_API_KEY=your_api_key_here
+   npm run dev
+---
